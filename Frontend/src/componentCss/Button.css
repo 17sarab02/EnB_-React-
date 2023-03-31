@@ -1,0 +1,17 @@
+button{
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  transition: 0.1s all ease-in-out;
+}
+
+button:hover{
+  filter: brightness(80%) contrast(200%);
+}
+
+button:active{
+  filter: brightness(65%) contrast(800%);
+}
